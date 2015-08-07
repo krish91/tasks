@@ -12,15 +12,24 @@ public class Primes {
          Если ни на кого не делится, то значит простое и его можно добавить в массив.
          */
 
-        int[] array = new int[20];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = i + 1;
+        ArrayList<Integer> primes = new ArrayList<Integer>();
+
+        int N = 100;
+        boolean isTrue;
+
+        for (int i = 2; i < N; i++) {
+            isTrue = true;
+            for (Integer prime : primes) {
+                if (i % prime == 0) {
+                    isTrue = false;
+                    break;
+                }
+            }
+            if (isTrue) {
+                primes.add(i);
+            }
         }
-        System.out.println(Arrays.toString(array));
 
-        int[] newArray = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 22, 13, 14, 15, 16, 17, 18, 19, 20};
-
-        System.out.println(Arrays.toString(newArray));
-        System.out.println(Arrays.toString(array));
+        System.out.println(primes);
     }
 }
