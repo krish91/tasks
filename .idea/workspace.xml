@@ -25,15 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ex1Calc/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83082706">
-              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#321#329#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Push.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ex1Calc/Push.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.287594">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,13 +87,13 @@
         <option value="$PROJECT_DIR$/src/ex1Calc/Calc.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Add.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Cmd.java" />
-        <option value="$PROJECT_DIR$/src/ex1Calc/Push.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Print.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Pop.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Div.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Mul.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Sub.java" />
         <option value="$PROJECT_DIR$/src/ex1Calc/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/ex1Calc/Push.java" />
       </list>
     </option>
   </component>
@@ -885,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1Calc/Push.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2556391">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1Calc/Print.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35150376">
@@ -961,12 +963,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1Calc/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83082706">
-          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#321#329#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1Calc/Push.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.287594">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

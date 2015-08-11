@@ -5,7 +5,8 @@ public class Push implements Cmd {
 
     @Override
     public void execute(String[] param, Stack<Double> stack) {
-        double tempDouble = Double.parseDouble(param[1]);
+        String tempString = param[1].replace(',', '.');
+        double tempDouble = Double.parseDouble(tempString);
         stack.push(tempDouble);
     }
 }
