@@ -1,0 +1,64 @@
+@startuml
+top to bottom direction
+skinparam headerFontSize 30
+skinparam headerFontStyle bold
+skinparam classAttributeIconSize 0
+scale 1.0
+package default_pack {
+class Capitalizator {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class CalcBits {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class ArraySort {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class One {
+.. Methods ..
++sout(String) : void
+}
+class Second <? extends One>  {
+}
+class LongAdd {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+~ {static} getNum() : int
+}
+class MergeSort {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class BubbleSort {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class TreeMapSort {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class Primes {
+.. Methods ..
+.. Static ..
++ {static} main() : void
+}
+class Fact {
+.. Methods ..
+.. Static ..
++ {static} fact() : int
++ {static} main() : void
+}
+
+}
+One <|-- Second
+@enduml

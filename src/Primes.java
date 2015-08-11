@@ -14,7 +14,7 @@ public class Primes {
 
         ArrayList<Integer> primes = new ArrayList<Integer>();
 
-        int N = 100;
+        int N = 1000;
         boolean isTrue;
 
         for (int i = 2; i < N; i++) {
