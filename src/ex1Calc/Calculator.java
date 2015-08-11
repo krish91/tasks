@@ -11,20 +11,28 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         Stack<Double> stack = new Stack<Double>();
 
+        cycle(sc, init(cmds), stack);
+
+    }
+
+    static Map<String, Cmd> init(Map<String, Cmd> cmds) {
         cmds.put("push", new Push());
         cmds.put("print", new Print());
         cmds.put("div", new Div());
         cmds.put("pop", new Pop());
         cmds.put("mul", new Mul());
         cmds.put("sub", new Sub());
-        boolean isTrue = true;
+        return cmds;
+    }
 
+    static void cycle(Scanner sc, Map<String, Cmd> cmds, Stack<Double> stack) {
+    //             we get String from our user and split it with .split(" ");
+//             take first word (it shoud be push/pop/sub etc), compare it with KEYS from Map<String, Cmd> cmds = new HashMap<>();,
+//             by this KEY we send params to execute method (param, stack)
+        boolean isTrue = true;
         while (isTrue) {
             String line = sc.nextLine();
             String[] param = line.split(" ");
-//             we get String from our user and split it with .split(" ");
-//             take first word (it shoud be push/pop/sub etc), compare it with KEYS from Map<String, Cmd> cmds = new HashMap<>();,
-//             by this KEY we send params to execute method (param[1], and command for stack)
 
             if (param[0] != null) {
                 Cmd c = cmds.get(param[0]);
@@ -63,5 +71,6 @@ public class Calculator {
                 }
             }
         }
+
     }
 }

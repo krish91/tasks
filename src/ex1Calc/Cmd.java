@@ -1,6 +1,4 @@
 package ex1Calc;
-
-
 import java.util.Stack;
 
 public interface Cmd {
