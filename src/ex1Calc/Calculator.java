@@ -5,13 +5,16 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Stack;
 
+
 public class Calculator {
     public static void main(String[] args) {
         Map<String, Cmd> cmds = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         Stack<Double> stack = new Stack<Double>();
+        Window window = new Window();
 
         cycle(sc, init(cmds), stack);
+
 
     }
 
