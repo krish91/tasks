@@ -22,21 +22,17 @@ public class LongestGrowing {
         // найдя самую большую разницу, мы кладем в StartPosition первую ячейку, а в EndPosition следующую ячейку
         int startPosition = 0;
         int endPosition = 0;
-        for (int i = 0; i < index.size()-1; i++) {
+        for (int i = 0; i < index.size() - 1; i++) {
             if (index.get(i + 1) - index.get(i) > startPosition) {
                 startPosition = index.get(i);
                 endPosition = index.get(i + 1);
             }
         }
 
-        System.out.println(index);
-        System.out.println(startPosition);
-        System.out.println(endPosition);
-
         // выполнять цикл пока позиции не сравняются
         int i = 0;
-        while (arr[startPosition+i]!=arr[endPosition]) {
-            System.out.print(arr[startPosition + i]);
+        while (arr[startPosition + i] != arr[endPosition]) {
+            System.out.print(arr[startPosition + i] + " ");
             i++;
         }
     }
